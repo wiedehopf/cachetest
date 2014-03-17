@@ -11,8 +11,8 @@ user_total=$(($userfile_number*1024*patternsize))
 TIMEFORMAT='%5R s'
 READTYPE="fread"
 NORMAL=NORMAL
-backup=backup #backup dir
-user=user #user dir
+backup=UNLIKELY.backup #backup dir
+user=UNLIKELY.user #user dir
 speedcount=1000
 
 checkfiles() {
